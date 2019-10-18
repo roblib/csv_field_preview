@@ -1,0 +1,33 @@
+papaparse:
+  remote: https://github.com/mholt/PapaParse
+  version: 5.1.0
+  license:
+    name: MIT
+    url: https://github.com/mholt/PapaParse/blob/master/LICENSE
+    gpl-compatible: true
+  js:
+    https://cdn.jsdelivr.net/npm/papaparse@5: { type: external, minified: true }
+
+
+handsontable:
+  remote: https://github.com/handsontable/handsontable
+  version: 7.1.1
+  license:
+    name: MIT
+    url: https://github.com/handsontable/handsontable/blob/master/LICENSE.txt
+    gpl-compatible: true
+  js:
+    https://cdn.jsdelivr.net/handsontable/0.28.4/handsontable.full.min.js: { type: external, minified: true }
+  css:
+          theme:
+                  https://cdn.jsdelivr.net/handsontable/0.28.4/handsontable.full.min.css: { type: external, minified: true }
+
+drupal.csv:
+  dependencies:
+    - csv_field_preview/papaparse
+    - csv_field_preview/handsontable
+  js:
+    js/csv.js: {}
+  css:
+    theme:
+      css/csv.css: {}
