@@ -1,0 +1,21 @@
+{
+  "name": "islandora-rdm/csv_field_preview",
+  "description": "Field formatter to display CSV files",
+  "type": "drupal-module",
+  "homepage": "https://github.com/roblib/csv_field_preview",
+  "authors":
+  [
+    {
+      "name": "Alexander O'Neill (alxp)",
+      "homepage": "https://www.drupal.org/u/alxp",
+      "role": "Maintainer"
+    },
+    {
+      "name": "Mengyu Zang",
+      "homepage": "https://github.com/thetreesofthebaron",
+      "role": "Author"
+    }
+  ],
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev"
+}
