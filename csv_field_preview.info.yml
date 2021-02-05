@@ -1,6 +1,6 @@
 name: CSV Field Preview
 description: 'Field formatter to display CSV files.'
-core: 8.x
+core_version_requirement: ^8 || ^9
 dependencies:
   - drupal:file
 type: module
